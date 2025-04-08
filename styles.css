@@ -177,26 +177,23 @@ header ul {
 
 .cards {
   display: flex;
-  flex-flow: row wrap;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 32px;
 }
 
-.card figure {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+.card {
+  width: 200px;
 }
 
 .card img {
-  width: 200px;
-  aspect-ratio: 1 / 1;
+  width: 100%;
+  aspect-ratio: 1;
   border: 2px solid #3c82f6;
   border-radius: 16px;
 }
 
 .card figcaption {
-  /* I'm not sure this is good but I can't come up with anything better. */
-  width: 200px;
   text-align: center;
 }
 
