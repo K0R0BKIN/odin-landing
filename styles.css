@@ -147,7 +147,6 @@ header ul {
   display: flex;
   flex-direction: column;
   flex: 1;
-  width: 512px;
 }
 
 #hero .content h1 {
