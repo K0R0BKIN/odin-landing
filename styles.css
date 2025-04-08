@@ -103,12 +103,17 @@ body {
   flex-direction: column;
 }
 
-header {
+header,
+main > section,
+footer {
+  justify-content: center;
+}
+
+header, footer {
   padding: 16px;
 }
 
 main > section {
-  justify-content: center;
   padding: 64px 128px;
 }
 
